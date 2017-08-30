@@ -1,0 +1,19 @@
+<wm-page data-ng-controller="MainPageController" name="mainpage" pagetitle="Main">
+    <wm-content name="content">
+        <wm-page-content columnwidth="12" name="mainContent" padding="unset 15px">
+            <wm-composite name="composite1">
+                <wm-label class="col-md-3 control-label" name="usernameLabel" caption="Username" required="true"></wm-label>
+                <wm-container class="col-md-9" name="container1">
+                    <wm-text name="username" placeholder="" required="true"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-composite name="Password">
+                <wm-label class="col-md-3 control-label" name="passwordLabel" caption="Password" required="true"></wm-label>
+                <wm-container class="col-md-9" name="container2">
+                    <wm-text name="password" type="password" placeholder="" required="true"></wm-text>
+                </wm-container>
+            </wm-composite>
+            <wm-button class="btn-default" caption="Button" type="button" margin="unset 0.5em" name="button1"></wm-button>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
